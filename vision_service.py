@@ -74,7 +74,7 @@ def analyze_product(image_bytes: bytes, product_details: str = "") -> ProductAna
             },
         ],
         temperature=0.2,
-        max_completion_tokens=1800,
+        max_completion_tokens=900,
     )
 
     text = response.choices[0].message.content or ""
