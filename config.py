@@ -4,7 +4,7 @@ from pathlib import Path
 APP_NAME = "Amazon Listing AI"
 
 # Groq vision-capable model. Change it in .env if you want to test another supported model.
-GROQ_MODEL = os.getenv("GROQ_MODEL", "qwen/qwen3.6-27b")
+GROQ_MODEL = os.getenv("GROQ_MODEL", "qwen/qwen3.8-27b")
 
 DEFAULT_SIZE = "2000 × 2000"
 SUPPORTED_SIZES = {
