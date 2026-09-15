@@ -1,0 +1,6 @@
+streamlit>=1.40
+groq>=0.30
+Pillow>=10.4
+python-dotenv>=1.0
+arabic-reshaper>=3.0
+python-bidi>=0.6
