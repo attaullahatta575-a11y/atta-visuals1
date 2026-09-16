@@ -110,7 +110,7 @@ def render_image(product: Image.Image, plan: ImagePlan, size_name: str, language
         _draw_text(draw, (int(w*.08), int(h*.20)), copy[:130], body_font, (75, 82, 92))
 
     if plan.number in (2, 3):
-        items = plan.features if plan.number == 2 else plan.product.benefits
+       items = plan.features if plan.number == 2 else plan.benefits
         items = items[:5]
         y = int(h*.30)
         for i, item in enumerate(items):
