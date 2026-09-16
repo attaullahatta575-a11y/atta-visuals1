@@ -54,7 +54,7 @@ with st.sidebar:
 
     export_format = st.selectbox(
         "Download Format",
-        ["PNG", "JPG"],
+        ["PNG", "JPG", "zip"],
     )
 
 
@@ -171,11 +171,11 @@ if uploaded_file and product_description.strip():
 
 
                 # ----------------------------------
-                # STEP 3: CREATE 4 VISUALS
+                # STEP 3: CREATE 1 VISUALS
                 # ----------------------------------
 
                 st.write(
-                    "🎨 Creating 4 Amazon listing visuals..."
+                    "🎨 Creating 1 Amazon listing visuals..."
                 )
 
                 images = generate_listing_images(
